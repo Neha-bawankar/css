@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        .div{
+             background-color: cornflowerblue;
+             margin: 5px;
+             height: 100px;
+             width: 100px;
+             text-align: center;
+        }
+        #div1{
+            position: static;
+        }
+        #div2{
+            position: relative;
+            top: 10px;
+            left: 102px;
+        }
+        #div3{
+            position: absolute;
+            top: 110px;
+        }
+        #div4{
+            position: fixed;
+            left:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1" class="div">Static</div>
+    <div id="div2" class="div">relative</div>
+    <div id="div3" class="div">absolute</div>
+    <div id="div4" class="div">Fixed</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+    <div class="div">box</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative units</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+         font-size: 5px;
+         background-color: rgb(24, 195, 109);
+         
+    }
+    #First{
+        background-color: rgb(204, 156, 93);
+        width:200px;
+        height: 200px;
+        border: 2px solid;
+        text-align:center;
+        font-size: 30px;
+        
+
+        
+    }
+    #next{
+        width:50%;/*percentage units */
+        height: 30%;/*percentage units */
+        background-color: aqua;
+        margin: 40px;
+        padding: 10px;
+        font-size:0.5em;/* em units*/
+    }
+    #bosy{
+        font-size: 7rem;/* rem units*/
+        text-align: center;
+        width: 50vw;/* vw units*/
+        height: 50vh;/*vh*/
+        background-color: rgb(236, 87, 159);
+    }
+</style>
+</head>
+<body>
+    <div id="bosy">This is main heading</div>
+    <div id="First">First box
+        <div id="next">second box</div>
+    </div>
+    
+
+</body>
+</html>
